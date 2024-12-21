@@ -1,6 +1,9 @@
 import React from "react";
 
-function Hero({ title = "this is default", subtitle }) {
+function Hero({
+  title = "Transform to a React Dev",
+  subtitle = "Find the React job that fits your skills and needs",
+}) {
   return (
     <>
       <section className="bg-indigo-700 py-20 mb-4">
