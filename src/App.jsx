@@ -9,7 +9,7 @@ import {
 import HomePage from "./pages/HomePage";
 import MainLayout from "./layouts/MainLayout";
 import JobsPage from "./pages/JobsPage";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/LoginForm";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,7 +21,6 @@ const router = createBrowserRouter(
   )
 );
 function App() {
-  Route;
   return <RouterProvider router={router}></RouterProvider>;
 }
 
